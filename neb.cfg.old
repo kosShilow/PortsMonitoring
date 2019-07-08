@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Configuration Neb program.
+-->
+
+
+<config>
+    <!-- Set network scanning. -->
+    <scanning>
+        <network>10.96.112.0/22</network>
+        <network>10.96.248.0/22</network>
+	<network>10.96.17.33</network>
+	<network>10.116.4.17</network>
+	<network>10.96.58.0/24</network>
+	<network>10.96.190.0/24</network>
+	<network>10.96.55.231</network>
+	<network>10.96.187.30</network>
+	<network>10.96.187.34</network>
+	<network>10.96.187.38</network>
+	<network>10.96.187.46</network>
+    </scanning>
+    
+    <!-- Set network exclude scanning. -->
+    <exclude>
+    </exclude>
+    
+    <!-- Set level log (INFO, DEBUG). -->
+    <level_log>
+        DEBUG
+    </level_log> 
+    
+    <!-- Set list SNMP community/ -->
+    <community_list>
+        <community>20fyufhf80</community>
+    </community_list>
+        
+    <!-- Set pause in min. -->
+    <pause>
+        15
+    </pause>
+    <rescan_pause>
+        720
+    </rescan_pause>
+    <!-- Set retain data in day -->
+    <retain>
+        14
+    </retain>
+
+
+</config>
